@@ -1,0 +1,64 @@
+@media screen and (max-width: 375px) {
+ 
+    
+}
+@media screen and (max-width: 1440px) {
+    .profile {
+        position: absolute;
+        left: 30.86%;
+        right: 30.57%;
+        top: 56.68%;
+        bottom: 37.17%;
+    }
+
+    .name {
+        position: absolute;
+        height: 18px;
+        left: 0%;
+        right: 22.96%;
+        top: calc(50% - 18px/2 - 2.5px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+
+        color: #2E3349;
+    }
+
+    .age {
+        position: absolute;
+        height: 18px;
+        left: 83.33%;
+        right: 0.37%;
+        top: calc(50% - 18px/2 - 2.5px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+
+        color: #6B7082;
+    }
+
+    .city {
+        position: relative;
+        height: 15px;
+        left: 0%;
+        right: 42.86%;
+        top: calc(-143% - 14px/2 + 63px);
+
+        font-size: 14px;
+        line-height: 14px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #6B7082;
+    }
+
+}    
