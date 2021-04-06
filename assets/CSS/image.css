@@ -1,0 +1,31 @@
+@media screen and (max-width: 375px) {
+ 
+    
+}
+@media screen and (max-width: 1440px) {
+    .image__pattern--top {
+        position: absolute;
+        width: 978px;
+        height: 976px;
+        left: 204.71px;
+        top: 669.84px;
+
+        background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        transform: rotate(-135deg);    
+    } 
+
+    .image__pattern--bottom {
+        position: absolute;
+        width: 978px;
+        height: 976px;
+        left: 1180.29px;
+        top: 1554.84px;
+
+        background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+        mix-blend-mode: normal;
+        opacity: 0.25;
+        transform: matrix(0.71, -0.71, -0.71, -0.71, 0, 0);
+    }
+}           
