@@ -5,25 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link href="https://fonts.google.com/specimen/Kumbh+Sans" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="./assets/CSS/reset.css" rel="stylesheet">
+  <link href="./assets/CSS/image.css" rel="stylesheet">
+  <link href="./assets/CSS/profile.css" rel="stylesheet">
+  <link href="./assets/CSS/social-data.css" rel="stylesheet">
   <title>Frontend Mentor | Profile card component</title>
 </head>
 
 <body>
-  Victor Crest
-  26
-  London
+    <img class="image__pattern--top" src="./assets/images/bg-pattern-top.svg">
+    <img class="image__pattern--bottom" src="./assets/images/bg-pattern-bottom.svg">
 
-  80K
-  Followers
+<main class="container">
+  <img class="image__pattern--card" src="./assets/images/bg-pattern-card.svg">
+  <img class="image__victor" src="./assets/images/image-victor.jpg">
+  
+  <section class="profile">
+    <div class="name">Victor Crest</div>
+    <div class="age">26</div>
+    <div class="city">London</div> 
+  </section>
+  <hr class="horizontal_line">
+      
+  <section class="social__data">
+    <div class="social__followers">
+      <p class="qty__followers">80K</p>
+      <p class="followers">Followers</p>
+    </div>
+    
+    <div class="social__likes">
+      <p class="qty__likes">803K</p>
+      <p class="likes">Likes</p>
+    </div>
 
-  803K
-  Likes
+    <div class="social__photos">
+      <p class="qty__photos">1.4K</p>
+      <p class="photos">Photos</p>
+    </div>
+  
+  </section>
 
-  1.4K
-  Photos
+  
+
+</main>>
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Haruo Matsumoto</a>.
   </div>
 </body>
 </html>
