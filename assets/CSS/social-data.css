@@ -1,7 +1,291 @@
 @media screen and (max-width: 375px) {
- 
+    .social__data{
+        position: absolute;
+        width: 233px;
+        height: 40px;
+        left: 41px;
+        top: 310px;
+    }
+
+    .social__followers {
+        position: absolute;
+        left: 12.58%;
+        right: 69.33%;
+        top: 82.89%;
+        bottom: 6.42%;
+    }
+
+    .qty__followers{
+        position: absolute;
+        height: 18px;
+        left: 20.34%;
+        right: 20.34%;
+        top: calc(50% - 18px/2 - 11px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+
+        color: #2E3349;
+
+    }
+
+    .followers {
+        position: absolute;
+        height: 10px;
+        left: 2.54%;
+        right: 2.54%;
+        top: calc(50% - 10px/2 + 12px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 10px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 1.5px;
+
+        color: #6B7082;
+
+    }
+    .social__likes{
+        position: absolute;
+        left: 42.33%;
+        right: 43.25%;
+        top: 82.89%;
+        bottom: 6.42%;
+
+    }
+
+    .qty__likes {
+        position: absolute;
+        height: 18px;
+        left: 1.06%;
+        right: 1.06%;
+        top: calc(50% - 18px/2 - 11px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+
+        color: #2E3349;
+
+
+    }
+
+    .likes {
+        position: absolute;
+        height: 10px;
+        left: 19.15%;
+        right: 19.15%;
+        top: calc(50% - 10px/2 + 12px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 10px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 1.5px;
+
+        color: #6B7082;
+    }
+    .social__photos {
+        position: absolute;
+        left: 70.86%;
+        right: 15.95%;
+        top: 82.89%;
+        bottom: 6.42%;
+    }
+    .qty__photos {
+        position: absolute;
+        height: 18px;
+        left: 5.81%;
+        right: 5.81%;
+        top: calc(50% - 18px/2 - 11px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+
+        color: #2E3349;
+    }
+    .photos {
+        position: absolute;
+        height: 10px;
+        left: 3.49%;
+        right: 3.49%;
+        top: calc(50% - 10px/2 + 12px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 10px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 1.5px;
+
+        color: #6B7082;
+
+    }
     
 }
 @media screen and (max-width: 1440px) {
-    
+    .social__data{
+        position: absolute;
+        width: 249px;
+        height: 40px;
+        left: 47px;
+        top: 285px;
+    }
+
+    .social__followers {
+        position: absolute;
+        left: 13.43%;
+        right: 69.71%;
+        top: 82.89%;
+        bottom: 6.42%;
+    }
+
+    .qty__followers{
+        position: absolute;
+        height: 18px;
+        left: 20.34%;
+        right: 20.34%;
+        top: calc(50% - 18px/2 - 11px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+
+        color: #2E3349;
+
+    }
+
+    .followers {
+        position: absolute;
+        height: 10px;
+        left: 2.54%;
+        right: 2.54%;
+        top: calc(50% - 10px/2 + 12px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 10px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 1.5px;
+
+        color: #6B7082;
+    }
+    .social__likes{
+        position: absolute;
+        left: 43.43%;
+        right: 43.14%;
+        top: 82.89%;
+        bottom: 6.42%;
+
+    }
+
+    .qty__likes {
+        position: absolute;
+        height: 18px;
+        left: 1.06%;
+        right: 1.06%;
+        top: calc(50% - 18px/2 - 11px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+
+        color: #2E3349;
+
+    }
+
+    .likes {
+        position: absolute;
+        height: 10px;
+        left: 19.15%;
+        right: 19.15%;
+        top: calc(50% - 10px/2 + 12px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 10px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 1.5px;
+
+        color: #6B7082;
+    }
+    .social__photos {
+        position: absolute;
+        left: 72.29%;
+        right: 15.43%;
+        top: 82.89%;
+        bottom: 6.42%;
+    }
+    .qty__photos {
+        position: absolute;
+        height: 18px;
+        left: 5.81%;
+        right: 5.81%;
+        top: calc(50% - 18px/2 - 11px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+
+        color: #2E3349;
+    }
+    .photos {
+        position: absolute;
+        height: 10px;
+        left: 3.49%;
+        right: 3.49%;
+        top: calc(50% - 10px/2 + 12px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 10px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 1.5px;
+
+        color: #6B7082;
+
+    }
 }    

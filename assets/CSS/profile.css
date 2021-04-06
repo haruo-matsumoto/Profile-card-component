@@ -1,5 +1,65 @@
 @media screen and (max-width: 375px) {
- 
+    .profile {
+        position: absolute;
+        left: 29.45%;
+        right: 29.14%;
+        top: 56.68%;
+        bottom: 30.21%;
+    }
+
+    .name {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 53.06%;
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+
+        color: #2E3349;
+    }
+
+    .age {
+        position: absolute;
+        height: 18px;
+        left: 83.33%;
+        right: 0.37%;
+        top: calc(50% - 18px/2 - 2.5px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+
+        color: #6B7082;
+
+    }
+
+    .city {
+        position: absolute;
+        height: 14px;
+        left: 31.11%;
+        right: 31.85%;
+        top: calc(50% - 14px/2 + 13.5px);
+
+        font-family: Kumbh Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #6B7082;
+    }
     
 }
 @media screen and (max-width: 1440px) {
